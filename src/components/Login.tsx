@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Box, TextField } from '@mui/material'
+import { Box, Button, TextField } from '@mui/material'
 
 const Login = () => {
 
@@ -19,6 +19,9 @@ const Login = () => {
                 <TextField required type='email' id="outlined-basic" variant="outlined" />
                 <h4>Password *</h4>
                 <TextField required type='password' id="outlined-basic" variant="outlined" />
+                <div>
+                    <Button variant='contained'>Login</Button>
+                </div>
             </Box>
         </div>
     )
