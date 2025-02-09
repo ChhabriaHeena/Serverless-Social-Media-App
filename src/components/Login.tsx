@@ -20,7 +20,12 @@ const Login = () => {
                 <h4>Password *</h4>
                 <TextField required type='password' id="outlined-basic" variant="outlined" />
                 <div>
-                    <Button variant='contained'>Login</Button>
+                    <Button variant='contained' sx={{ mt: 2 }}>Login</Button>
+                </div>
+                <div>
+                    <Button variant="outlined" sx={{ mt: 2 }}>
+                        Sign in with Google
+                    </Button>
                 </div>
             </Box>
         </div>
