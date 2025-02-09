@@ -12,7 +12,7 @@ function App() {
       <div>Serverless Social Media React App</div>
       <Router>
         <Routes>
-          <Route path='/' element={<Login/>}/>
+          <Route path='/Serverless-Social-Media-App/' element={<Login/>}/>
           <Route path='/create' element={<CreatePost/>}/>
           <Route path='/posts' element={<Posts/>}/>
         </Routes>
